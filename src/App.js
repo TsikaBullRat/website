@@ -1,12 +1,15 @@
 import './App.css';
 import Home from './components/Home';
 import Aboutus from './components/Aboutus';
-import Contacts from './components/Contacts';
+import Ourimpacts from './components/Ourimpacts';
+
+
 function App() {
   return (
     <div>
-     
-      <Contacts/>
+      {/*<Home/>*/}
+      <Ourimpacts/>
+      {/*<Aboutus/>*/}
     </div>
   );
 }
