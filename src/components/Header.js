@@ -22,6 +22,6 @@ export default Header
 const header = {
     display: 'flex',
     justifyContent: 'space-between',
-    marginTop: 20,
-    backgroundColor: '#03adfc'
+    backgroundColor: '#03adfc',
+    height: 80
 }
