@@ -1,6 +1,5 @@
 
 /*Header stylings*/
-
 .links{
   display: flex;
 }
@@ -11,5 +10,10 @@
   padding-right: 20px;
 }
 .links > span:hover, .links > span:active{
-  color:
+  color:''
+}
+
+/*Home page styling*/
+.home{
+  background-image: url();
 }
