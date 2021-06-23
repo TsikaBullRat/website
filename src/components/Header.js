@@ -9,7 +9,7 @@ function Header() {
             </div>
             <div className="links">
                 <span>Home</span>
-                <span>About Us</span>
+               <a><span>About Us</span></a>
                 <span>Our Impacts</span>
                 <span>Conatcts</span>
             </div>
