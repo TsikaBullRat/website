@@ -9,7 +9,7 @@ function App() {
       <Home/>
     
       
-      <Aboutus/>
+     
      
     </div>
   );

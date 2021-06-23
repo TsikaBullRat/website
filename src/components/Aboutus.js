@@ -1,8 +1,10 @@
-
+import  Header from "../components/Header"
 function Aboutus() {
     return (
         <div className="container">
-            <h1>ccbcbcbcvc</h1>
+
+            <Header/>
+            <h1>Lifeline</h1>
             <p>fzsfzfdzsfdsz</p>
 
             <div className=" row ">
