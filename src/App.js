@@ -6,11 +6,13 @@ import Aboutus from './components/Aboutus';
 function App() {
   return (
     <div>
-      <Home/>
-    
-      
-     
-     
+
+
+
+      <img src='./assets/conselling.jpg' />
+
+      <Aboutus />
+
     </div>
   );
 }
