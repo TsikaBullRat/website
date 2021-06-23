@@ -9,7 +9,7 @@ function Header() {
             </div>
             <div className="links">
                 <span>Home</span>
-                <span>About Us</span>
+               <a><span>About Us</span></a>
                 <span>Our Impacts</span>
                 <span>Conatcts</span>
             </div>
@@ -22,6 +22,6 @@ export default Header
 const header = {
     display: 'flex',
     justifyContent: 'space-between',
-    marginTop: 20,
-    backgroundColor: '#03adfc'
+    backgroundColor: '#03adfc',
+    height: 80
 }
