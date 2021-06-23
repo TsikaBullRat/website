@@ -7,8 +7,8 @@ import Ourimpacts from './components/Ourimpacts';
 function App() {
   return (
     <div>
-      {/*<Home/>*/}
-      <Ourimpacts/>
+      <Home/>
+      {/*<Ourimpacts/>*/}
       {/*<Aboutus/>*/}
     </div>
   );

@@ -23,5 +23,6 @@ const header = {
     display: 'flex',
     justifyContent: 'space-between',
     backgroundColor: '#03adfc',
-    height: 80
+    height: 80,
+    color: '#fff'
 }

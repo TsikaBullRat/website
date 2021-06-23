@@ -4,7 +4,7 @@ import Header from './Header';
 function Home() {
 
     return (
-        <div className="container">
+        <div>
             <Header />
             <div className="home">
                 <div className="banner_text">
@@ -12,9 +12,9 @@ function Home() {
                     <h3>Anything the owner of this website wishes to say</h3>
                 </div>
                 <div className="home_button_holder">
-                    <button><h4>Donate Now</h4></button>
-                    <button><h4>Helping Hand</h4></button>
-                    <button><h4>Raised Funds</h4></button>
+                    <button className="btn btn-primary">Donate Now</button>
+                    <button className="btn btn-primary">Helping Hand</button>
+                    <button className="btn btn-primary">Raised Funds</button>
                 </div>
             </div>
         </div>
