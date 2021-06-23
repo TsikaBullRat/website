@@ -3,7 +3,6 @@ function Header() {
     return (
         <div style={header}>
             <div style={{ display: 'flex' }}>
-                <div className='mini-box' />
                 <div>
                     <h2>Lifeline</h2>
                 </div>
@@ -23,5 +22,6 @@ export default Header
 const header = {
     display: 'flex',
     justifyContent: 'space-between',
-    marginTop: 20
+    marginTop: 20,
+    backgroundColor: '#03adfc'
 }
