@@ -4,7 +4,7 @@ import Header from './Header';
 function Home() {
 
     return (
-        <div>
+        <div className="back">
             <Header />
             <div className="home">
                 <div className="banner_text">
