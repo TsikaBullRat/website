@@ -1,28 +1,30 @@
+
+
 function Header() {
 
     return (
-        <div style={header}>
-            <div style={{ display: 'flex' }}>
-                <div>
-                    <h2>Lifeline</h2>
-                </div>
-            </div>
-            <div className="links">
-                <span>Home</span>
-                <span>About Us</span>
-                <span>Our Impacts</span>
-                <span>Conatcts</span>
+        <div className="header navbar navbar-expand-lg">
+            <h2>Lifeline</h2>
+            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#Content">
+                <span className="nav-toggler-icon"></span>
+            </button>
+            <div className="links" id="Content">
+                <span className="nav-item">
+                    <a className="nav-link">Home</a>
+                </span>
+                <span className="nav-item">
+                    <a nav-link>About Us</a>
+                </span>
+                <span className="nav-item">
+                    <a nav-link>Our Impacts</a>
+                </span>
+                <span className="nav-item">
+                    <a nav-link>Conatcts</a>
+                </span>
             </div>
         </div>
     );
 }
 
 export default Header
-
-const header = {
-    display: 'flex',
-    justifyContent: 'space-between',
-    backgroundColor: '#03adfc',
-    height: 80,
-    color: '#fff'
-}
+/* aria-controls="Content" aria-expand="false" aria-label="Toggle navigation"*/
