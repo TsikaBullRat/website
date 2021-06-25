@@ -9,7 +9,7 @@ function Aboutus() {
             <h1>Helping Hand</h1> <br></br>
             <p>Lifeline Nothern Cape is a non-profit organization that focuses on emotional wellness.The organisation offers counselling ,training and community servives.</p> <br></br>
             <div className=" row ">
-                <div className="card" style={{ width: '18rem' }}>
+                <div className="card" style={{ width: '20rem' }}>
                     <img src="https://picsum.photos/200" className="card-img-top" alt="..." style={{ height: '200px' }} />
                     <div className="card-body">
                         <h5 className="card-title">Counselling</h5>
@@ -19,7 +19,7 @@ function Aboutus() {
                 </div>
 
 
-                <div className="card" style={{ width: '18rem' }}>
+                <div className="card" style={{ width: '20rem' }}>
                     <img src="https://picsum.photos/200" className="card-img-top" alt="..." style={{ height: '200px' }} />
                     <div className="card-body">
                         <h5 className="card-title">Training </h5>
@@ -28,11 +28,11 @@ function Aboutus() {
                     </div>
                 </div>
 
-                <div className="card" style={{ width: '18rem' }}>
+                <div className="card" style={{ width: '20rem' }}>
                     <img src="https://picsum.photos/200" className="card-img-top" alt="..." style={{ height: '200px' }} />
                     <div className="card-body">
                         <h5 className="card-title"> Community Services</h5>
-                        <p className="card-text">Community services is unpaid work performed by a person or group of people for the benefit and betterment of their community without any form of compensation.</p>
+                        <p className="card-text">Community services is unpaid work performed by a person or group of people for the benefit and betterment of their community without any form of compensation. Community services can be distinct from volunteering, since it is not always performed on a voluntary basis and may be compulsory per situation.</p>
 
                     </div>
                 </div>

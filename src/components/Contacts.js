@@ -7,8 +7,8 @@ function Contacts() {
             <Header />
 
             <div className="row">
- 
-                <div className="col-6 ">
+
+                <div className="col-lg-6  col-sm-12 ">
 
                     <div className="logos">
                         <div>
@@ -24,7 +24,7 @@ function Contacts() {
 
                 </div>
 
-                <div className="col-6">
+                <div className="col-lg-6  col-sm-12 ">
                     <div className="mt-5">
                         <input type="email" placeholder="Email" className="form-control w-50" id="exampleInputEmail1" aria-describedby="emailHelp" /> <br></br>
                         <input type="text" placeholder="Subject" className="form-control w-50 mt-3" id="exampleInputEmail1" aria-describedby="emailHelp" /> <br></br>

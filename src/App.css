@@ -4,7 +4,8 @@
     display: flex;
     justify-content: space-between;
     /*backgroundColor: '#03adfc',*/
-    background-image: linear-gradient(to top,rgba(94, 198, 247, 0.1), rgba(66, 135, 245,0.5), rgba(64, 134, 167, 1));
+    background-color: #1e81b0;
+
     height: 120px;
     color: #fff
 }
@@ -96,6 +97,12 @@ margin-left: 30%
 
 i{
   font-size: 35px;
+  color: #1e81b0
 }
 
  
+.row{
+margin-left:0.1%;
+font-size: larger;
+
+}
