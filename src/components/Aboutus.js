@@ -1,10 +1,9 @@
 import Header from "../components/Header"
 
-function Aboutus() {
+export const Aboutus = () => {
     return (
         <div className="container">
 
-            <Header />
 
             <h1>Helping Hand</h1> <br></br>
             <p>Lifeline Nothern Cape is a non-profit organization that focuses on emotional wellness.The organisation offers counselling ,training and community servives.</p> <br></br>
@@ -50,4 +49,4 @@ function Aboutus() {
 
 }
 
-export default Aboutus
+/*export default Aboutus;*/
