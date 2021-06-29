@@ -11,7 +11,6 @@ function App() {
     <div className="container-fluid">
       <Router>
         <Header />
-
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/about" component={Aboutus} />
