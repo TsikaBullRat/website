@@ -1,21 +1,14 @@
-/*Bootstrap Overrides*/
-
-
-/*Our Impacts Page*/
-
-
 .logos{
 padding-top:50px;
-margin-left: 30%
+margin-left: 30%;
 }
- .Space-around{ 
+.Space-around{ 
    margin-top: 6px;
-   
 }
 
 i{
   font-size: 35px;
-  color: #1e81b0
+  color: #1e81b0;
 }
 
 .jumbotron{
@@ -36,11 +29,15 @@ i{
   font-weight: 300;
   color: white;
 }
-.nav-link {
+.navbar-light .navbar-brand {
+  color: #FFF;
+}
+.navbar-light .navbar-nav .nav-link {
   color: #fff;
 }
-.navbar-light .navbar-brand {
-    color: #fff;
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+  color: rgba(0,0,0,.9);
+  background-color: white;
 }
  
 .row{
@@ -66,4 +63,13 @@ font-size: larger;
 }
 .color{
   background-color: #1e81b0;
+}
+
+NavLink:active {
+  background-color: yellow;
+}
+.deco_box_home{
+  display: block;
+  width:300px;
+  height:300px;
 }
