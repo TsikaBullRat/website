@@ -8,7 +8,10 @@ export const Contacts = () => {
 
                 <div className="col-lg-6  col-sm-12 ">
 
+                    <div className="header"> <h2>How to get in touch with us</h2> </div>
+
                     <div className="logos">
+
                         <div>
                             <div><i className="bi bi-envelope"></i> Lifeline@gmailcom <br></br></div>
                             <div className='Space-around'> <i className="bi bi-telephone"></i> 0530501067  <br></br></div>
@@ -22,7 +25,10 @@ export const Contacts = () => {
 
                 </div>
 
-                <div className="col-lg-6  col-sm-12 ">
+                <div className="col-lg-6  col-sm-12 "> <br></br>
+
+                    <br></br>
+
                     <div className="mt-5">
                         <input type="email" placeholder="Email" className="form-control w-50" id="exampleInputEmail1" aria-describedby="emailHelp" /> <br></br>
                         <input type="text" placeholder="Subject" className="form-control w-50 mt-3" id="exampleInputEmail1" aria-describedby="emailHelp" /> <br></br>
