@@ -43,6 +43,7 @@ i{
 .row{
 margin-left:0.1%;
 font-size: larger;
+padding-top: 50px;
 
 }
 
@@ -65,11 +66,17 @@ font-size: larger;
   background-color: #1e81b0;
 }
 
-NavLink:active {
-  background-color: yellow;
-}
 .deco_box_home{
   display: block;
   width:300px;
   height:300px;
+}
+.header{
+text-align: center ;
+margin-left:60%;
+}
+
+.mt-5{
+padding-top: 5%;
+
 }
