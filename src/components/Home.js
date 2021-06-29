@@ -25,7 +25,6 @@ export const Home = () => {
             </div>
             <Summary />
             <Impact_sum/>
-            <div className="gap"></div>
             <Footer />
         </div>
 
