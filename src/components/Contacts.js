@@ -1,10 +1,8 @@
 import Header from "../components/Header"
 
-function Contacts() {
+export const Contacts = () => {
     return (
         <div>
-
-            <Header />
 
             <div className="row">
 
@@ -47,4 +45,4 @@ function Contacts() {
     )
 }
 
-export default Contacts
+/*export default Contacts*/

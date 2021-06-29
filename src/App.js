@@ -1,22 +1,24 @@
 import './App.css';
-import logo  from './logo.svg'
-import Home from './components/Home';
 import Header from './components/Header';
-import Aboutus from './components/Aboutus';
-import Ourimpacts from './components/Ourimpacts';
-import Contacts from './components/Contacts';
-import Full_Screen_Slide from './components/Full_Sreen_Slide';
-import Hero from './components/hero';
-
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { Home } from './components/Home';
+import { Aboutus } from './components/Aboutus';
+import { Ourimpacts } from './components/Ourimpacts';
+import { Contacts } from './components/Contacts';
 
 function App() {
   return (
     <div className="container-fluid">
-      {/*<Header/>*/}
-      <Contacts/>
-      {/*<Ourimpacts/>*/}
-      {/*<Aboutus/>*/}
-      {/*<Full_Screen_Slide/>*/}
+      <Router>
+        <Header />
+
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/about" component={Aboutus} />
+          <Route path="/impacts" component={Ourimpacts} />
+          <Route path="/contacts" component={Contacts} />
+        </Switch>
+      </Router>
     </div>
   );
 }

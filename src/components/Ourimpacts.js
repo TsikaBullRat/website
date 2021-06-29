@@ -1,21 +1,68 @@
-import Header from './Header'
-import grainy from '../assets/grainy.jpg';
+import Header from './Header';
+import thanks from '../assets/thank_you.jpg'
 
-console.log(grainy);
-
-function Ourimpacts(){
-    return(
-        <div className="container">
-            <Header/>
-            <div className="our_impacts">
-                <div className="impacts_text_box">
-                    <h1>Hello</h1>
-                    <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Hac habitasse platea dictumst vestibulum rhoncus est pellentesque elit. Massa tincidunt dui ut ornare lectus sit amet. Diam sit amet nisl suscipit adipiscing. Eu turpis egestas pretium aenean pharetra magna ac placerat vestibulum. Ipsum dolor sit amet consectetur. Mauris augue neque gravida in. Mollis aliquam ut porttitor leo a diam sollicitudin tempor. Morbi tristique senectus et netus et. Ut diam quam nulla porttitor. Tortor vitae purus faucibus ornare suspendisse sed nisi lacus sed. Blandit cursus risus at ultrices mi. Urna id volutpat lacus laoreet non curabitur gravida. Scelerisque eu ultrices vitae auctor eu augue ut lectus arcu. Nascetur ridiculus mus mauris vitae ultricies leo.</h5>
+export const Ourimpacts = () => {
+    return (
+        <div>
+            <div className="mt-5 mr-1 mb-5 text-center">
+                <h3>What We've Done</h3>
+                <p>lorem ipsum djkad jadhajhd ahdkahdja ajhdkahdja ajdkajsdj cjdkdhfl </p>
+            </div>
+            <div class="row justify-content-center">
+                    <div   class="col-lg-3 col-md-6 col-sm-12 text-center">
+                        <i class="bi bi-emoji-smile" style={{ fontSize: 100 }}></i>
+                        <h4>300</h4>
+                        <h4>Souls</h4>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 text-center">
+                        <i class="bi bi-emoji-sunglasses" style={{ fontSize: 100 }}></i>
+                        <h4>300</h4>
+                        <h4>Projects</h4>
+                    </div>
+                    <div  class="col-lg-3 col-md-6 col-sm-12 text-center">
+                        <i class="bi bi-emoji-laughing" style={{ fontSize: 100 }}></i>
+                        <h4>300</h4>
+                        <h4>Successes</h4>
+                    </div>
+            </div>
+            <div className="row" style={{padding:50}}>
+                <div className="card col-lg-2 col-md-6 col-sm-12" style={{width: '17%', height:'auto', marginLeft: 20}}>
+                    <img src={thanks} class="card-img-top"/>
+                    <div className="card-body">
+                        <h5>My Story</h5>
+                        <p>A story told by those who have had problems, and the triumpht of life line</p>
+                    </div>
                 </div>
-                <div className="impacts_picture_box"><img src={grainy} alt=""/></div>
+                <div className="card col-lg-2 col-md-6 col-sm-12" style={{width: '17%', height:'auto', marginLeft: 25}}>
+                    <img src={thanks} class="card-img-top"/>
+                    <div className="card-body">
+                        <h5>My Story</h5>
+                        <p>A story told by those who have had problems, and the triumpht of life line</p>
+                    </div>
+                </div>
+                <div className="card col-lg-2 col-md-6 col-sm-12" style={{width: '17%', height:'auto', marginLeft: 25}}>
+                    <img src={thanks}/>
+                    <div className="card-body">
+                        <h5>My Story</h5>
+                        <p>A story told by those who have had problems, and the triumpht of life line</p>
+                    </div>
+                </div>
+                <div className="card col-lg-2 col-md-6 col-sm-12" style={{width: '17%', height:'auto', marginLeft: 25}}>
+                    <img src={thanks}/>
+                    <div className="card-body">
+                        <h5>My Story</h5>
+                        <p>A story told by those who have had problems, and the triumpht of life line</p>
+                    </div>
+                </div>
+                <div className="card col-lg-2 col-md-6 col-sm-12" style={{width: '17%', height:'auto', marginLeft: 25}}>
+                    <img src={thanks}/>
+                    <div className="card-body">
+                        <h5>My Story</h5>
+                        <p>A story told by those who have had problems, and the triumpht of life line</p>
+                    </div>
+                </div>
             </div>
         </div>
     );
 }
-
-export default Ourimpacts;
+/*export default Ourimpacts;*/

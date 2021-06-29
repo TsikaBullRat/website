@@ -1,11 +1,10 @@
-import Header from './Header';
+import Footer from './Footer'
 
 
-function Home() {
+export const Home = () => {
 
     return (
         <div>
-            <Header />
             <div>
 
                 <div class="jumbotron ">
@@ -22,9 +21,10 @@ function Home() {
                 </div>
 
             </div>
+            <Footer/>
         </div>
 
             );
 }
 
-            export default Home
+            /*export default Home*/

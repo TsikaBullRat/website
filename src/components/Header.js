@@ -1,19 +1,19 @@
-
+import {NavLink} from 'react-router-dom';
 
 function Header() {
 
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-primary">
-            <a className="navbar-brand" href="#">Lifeline</a>
+            <NavLink exact to="/" className="navbar-brand">Lifeline</NavLink>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                 <div className="navbar-nav">
-                    <a className="nav-link" href="#">Home</a>
-                    <a className="nav-link" href="#">About Us</a>
-                    <a className="nav-link" href="#">Our Impacts</a>
-                    <a className="nav-link" href="#">Contacts</a>
+                    <NavLink exact to="/" className="nav-link">Home</NavLink>
+                    <NavLink exact to="/about" className="nav-link">About Us</NavLink>
+                    <NavLink exact to="/impacts" className="nav-link">Our Impacts</NavLink>
+                    <NavLink exact to="/contacts" className="nav-link">Contacts</NavLink>
                 </div>
             </div>
         </nav>
