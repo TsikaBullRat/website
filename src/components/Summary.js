@@ -1,33 +1,47 @@
 import { Link } from 'react-router-dom';
-import { Points } from './Points'
+import {Headline} from './Headline';
 
 function Summary() {
     return (
         <div className="container-fluid">
-            <div className="row mb-4 ml-5 mr-5">
-
-                <div className="col-sm-12 col-lg-4 text-center mb-5">
+            <div className="row about_us_box">
+                <div className="line"></div>
+                <h2>About Us</h2>
+                <div className="line"></div>
+            </div>
+            <div className="row justify-content-center mb-5">
+                <div className="col-sm-12 col-lg-4 text-center">
                     <h3>What we're about</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ....</p>
                     <Link exact to="/about">
                         <button className="btn btn-primary">Want to know more</button>
                     </Link>
                 </div>
-                <ul className="col-sm-12 col-lg-6 text-center">
-                    <h3>Our Mission</h3>
-                    <li>
-                        To assist those with depression
-                    </li>
-                    <hr />
-                    <li>
+                <div className="col-sm-12 col-lg-6  text-center" >
+                <h3>Our Mission</h3>
+                    <ul>
+                        <div className="list_repsonder">
+                        <li>
+                            To assist those with depression
+                        </li>
+                        <hr />
+                        </div>
+                        <div className="list_repsonder">
+                        <li>
                         To help those in bad situations out of them
-                    </li>
-                    <hr />
-                    <li>
+                        </li>
+                        <hr />
+                        </div>
+                        <div className="list_repsonder">
+                        <li>
                         To give you someone to talk to
-                    </li>
-                    <hr />
-                </ul>
+                        </li>
+                        <hr />
+                        </div>
+                        
+                    </ul>
+
+                </div>
             </div>
         </div>
     )

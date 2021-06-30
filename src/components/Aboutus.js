@@ -1,11 +1,14 @@
-import Header from "../components/Header"
 
 export const Aboutus = () => {
     return (
         <div className="container">
 
-
-            <h1>Helping Hand</h1> <br></br>
+            <div className="row about_us_box">
+                <div className="line"></div>
+                <h2>Helping Hand</h2>
+                <div className="line"></div>
+            </div>
+            <br></br>
             <p>Lifeline Nothern Cape is a non-profit organization that focuses on emotional wellness.The organisation offers counselling ,training and community servives.</p> <br></br>
             <div className=" row ">
                 <div className="card" style={{ width: '20rem' }}>

@@ -1,14 +1,16 @@
-import Header from "../components/Header"
 
 export const Contacts = () => {
     return (
         <div>
-
+            <div className="row about_us_box">
+                <div className="line"></div>
+                <h2>How to get in touch with us</h2>
+                <div className="line"></div>
+            </div>
             <div className="row">
 
                 <div className="col-lg-6  col-sm-12 ">
 
-                    <div className="header"> <h2>How to get in touch with us</h2> </div>
 
                     <div className="logos">
 

@@ -1,11 +1,14 @@
-import Header from './Header';
 import thanks from '../assets/thank_you.jpg'
 
 export const Ourimpacts = () => {
     return (
         <div>
-            <div className="mt-5 mr-1 mb-5 text-center">
-                <h3>What We've Done</h3>
+            <div className="mr-1 mb-5 text-center">
+                <div className="row about_us_box">
+                    <div className="line"></div>
+                    <h2>What We've Done</h2>
+                    <div className="line"></div>
+                </div>
                 <p>lorem ipsum djkad jadhajhd ahdkahdja ajhdkahdja ajdkajsdj cjdkdhfl </p>
             </div>
             <div class="row justify-content-center mt-5 mb-5">
