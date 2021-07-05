@@ -8,7 +8,7 @@ import { Contacts } from './components/Contacts';
 
 function App() {
   return (
-    <div className="container-fluid">
+    <div>
       <Router>
         <Header />
         <Switch>

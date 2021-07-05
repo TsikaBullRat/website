@@ -13,7 +13,9 @@ i{
   font-size: 35px;
   color: #1e81b0;
 }
-
+.my_button_jumbotron{
+  width: 220px;
+}
 .jumbotron{
   background-image: url("./assets/nature_smiling.jpg");
   background-size: 100%;
@@ -75,11 +77,8 @@ padding-top: 5%;
 }
 .back{
   background:#ffffff;
-  background-size: 100% auto;
-  background-position: center;
-  background-repeat:no-repeat;
   padding: 80px 0px 80px 0px;
-  color: #fff;
+  color: #000;
 }
 .space{
   height:0%;
@@ -114,12 +113,12 @@ padding-top: 5%;
   height: 3px;
   width: 20%;
 }
-.about_us_box > h2{
+.headline_box > h2{
   background-color: #007bff;
-  padding-top: 5px;
-  padding-left: 5px;
+  width: auto;
+  height: auto;
 }
-.about_us_box{
+.headline_box{
   color: #fff;
   text-align: center;
   margin-top: 60px;
@@ -127,18 +126,27 @@ padding-top: 5%;
   justify-content: center;
 }
 .list_repsonder{
-  margin-left: 270px;
-  width: 350px;
+  margin-left: 12%;
+  width: 80%;
 }
 .footer_nav ul{
   list-style: none;
 }
-.footer_nav li{
+/*.footer_nav li{
   margin-bottom: 20px;
-}
+}*/
 .footer_nav a{
   color:#fff;
   text-decoration: none;
+}
+.mini_about_box{
+  flex: 0 0 20%;
+  margin: 0px 20px 0px 20px;
+}
+.list_vision{
+  list-style: url('./assets/tick.svg');
+  margin-left: 12%;
+  width: 80%;
 }
 @media (max-width: 986px) {
   .line{
@@ -147,11 +155,19 @@ padding-top: 5%;
     height: 3px;
     width: 20%;
   }
-  .about_us_box > h2{
+  .headline_box > h2{
     background-color: #007bff;
     width: 50%;
   }
-  .about_us_box{
+  .jumbotron{
+    background-image: url("./assets/nature_smiling.jpg");
+    background-size: 100%;
+    background-position-y: center;
+    background-repeat:no-repeat;
+    background-color: #fff;
+    height: 500px;
+  }
+  .headline_box{
     color: #fff;
     text-align: center;
     margin-top: 60px;
@@ -159,8 +175,8 @@ padding-top: 5%;
     justify-content: center;
   }
   .list_repsonder{
-    margin-left: -10px;
-    width: 350px;
+    margin-left: 14%;
+    width: 80%;
   }
   .btn-primary {
     color: #fff;
@@ -168,11 +184,20 @@ padding-top: 5%;
     border-color: #007bff;
     margin-top: 5%;
 }
+.list_vision{
+  margin-left: 14%;
+    width: 80%;
+}
 .back{
   background:#ffffff;
-  background-size: auto 800px;
-  background-position: center;
-  background-repeat:no-repeat;
-  color: #fff;
+  padding: 0px;
+  color: #000;
+}
+.mini_about_box{
+  flex: 0 0 100%;
+  margin: 10px 20px 10px 20px;
+}
+.my_text_center {
+  text-align: center!important;
 }
 }
