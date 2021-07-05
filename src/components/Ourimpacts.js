@@ -1,6 +1,5 @@
 import profile from '../assets/profile.png';
 import { Headline } from './Headline';
-import { CgProfile } from 'react-icons/cg'
 
 export const Ourimpacts = () => {
     return (
