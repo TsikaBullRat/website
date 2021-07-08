@@ -11,7 +11,7 @@ margin-left: 30%;
 
 i{
   font-size: 35px;
-  color: #1e81b0;
+  color: #fa8701;
 }
 .my_button_jumbotron{
   width: 220px;
@@ -23,6 +23,8 @@ i{
   background-repeat:no-repeat;
   background-color: #fff;
   height: 700px;
+  padding-top: 150px;
+  padding-left: 80px;
 }
 
 .display-4 {
@@ -36,17 +38,31 @@ i{
   font-weight: 300;
   color: white;
 }
+.navbar{
+  background: #fa8701;
+}
 .navbar-light .navbar-brand {
   color: #FFF;
 }
 .navbar-light .navbar-nav .nav-link {
   color: #fff;
 }
-.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-  color: rgba(0,0,0,.9);
-  background-color: white;
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, 
+.navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+  color: #fff;
+  background-color: #71bce4;
 }
-
+.nav-link{
+  width: 150px;
+  margin: 0 5px;
+  text-align: center;
+}
+.nav-link:hover{
+  color: #fff;
+  width: 150px;
+  text-align: center;
+  background-color: #71bce4;
+}
 .impact_box{
   margin-left: 10px;
   margin-right: 10px;
@@ -62,6 +78,7 @@ i{
   width: 100%;
   height: auto;
 }
+
 
 .deco_box_home{
   display: block;
@@ -83,10 +100,13 @@ padding-top: 5%;
 .space{
   height:0%;
 }
-.btn-primary {
+.btn{
+  background: #fa8701;
   color: #fff;
-  background-color: #5096ff;
-  border-color: #007bff;
+}
+.btn:hover{
+  background: #2a8bc8;
+  color: #fff;
 }
 .outer_circle{
   border-radius: 50%;
@@ -108,19 +128,20 @@ padding-top: 5%;
 }
 .line{
   display: block;
-  margin-top: 20px;
-  background-color: #007bff;
+  background: #fa8701;
   height: 3px;
   width: 20%;
 }
 .headline_box > h2{
-  background-color: #007bff;
+  background: #2a8bc8;
   width: auto;
   height: auto;
+  padding: 10px;
 }
 .headline_box{
   color: #fff;
   text-align: center;
+  align-items: center;
   margin-top: 60px;
   margin-bottom: 60px;
   justify-content: center;
@@ -129,15 +150,8 @@ padding-top: 5%;
   margin-left: 12%;
   width: 80%;
 }
-.footer_nav ul{
-  list-style: none;
-}
-/*.footer_nav li{
-  margin-bottom: 20px;
-}*/
-.footer_nav a{
-  color:#fff;
-  text-decoration: none;
+.footer_nav{
+  height: 150px;
 }
 .mini_about_box{
   flex: 0 0 20%;
@@ -148,28 +162,49 @@ padding-top: 5%;
   margin-left: 12%;
   width: 80%;
 }
+.footer{
+  background: #27394a;
+  width:100%;
+}
+/*Quick Donate Button CSS start*/
+.quick_donate{
+  display: flex;
+  background: #000;
+  color: #fff;
+  height: 60px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 100px 0px 100px;
+}
+.donate_button{
+  background: #fff;
+  border-style: none;
+  height: 40px;
+}
+.donate_button:hover{
+  background: #fa8701;
+  color: #fff;
+  border-style: none;
+  height: 40px;
+}
+/*END!!!!*/
 @media (max-width: 986px) {
   .line{
-    margin-top: 20px;
-    background-color: #007bff;
+    display: block;
+    background: #fa8701;
     height: 3px;
     width: 20%;
   }
   .headline_box > h2{
-    background-color: #007bff;
-    width: 50%;
-  }
-  .jumbotron{
-    background-image: url("./assets/nature_smiling.jpg");
-    background-size: 100%;
-    background-position-y: center;
-    background-repeat:no-repeat;
-    background-color: #fff;
-    height: 500px;
+    background: #2a8bc8;
+    width: auto;
+    height: auto;
+    padding: 10px;
   }
   .headline_box{
     color: #fff;
     text-align: center;
+    align-items: center;
     margin-top: 60px;
     margin-bottom: 60px;
     justify-content: center;
@@ -178,12 +213,6 @@ padding-top: 5%;
     margin-left: 14%;
     width: 80%;
   }
-  .btn-primary {
-    color: #fff;
-    background-color: #5096ff;
-    border-color: #007bff;
-    margin-top: 5%;
-}
 .list_vision{
   margin-left: 14%;
     width: 80%;
@@ -200,4 +229,15 @@ padding-top: 5%;
 .my_text_center {
   text-align: center!important;
 }
+.nav-link{
+  width: 100%;
+  text-align: center;
 }
+.jumbotron{
+  height: 600px;
+}
+}
+/*Ornage: #fa8701*/
+/*Lightblue: #71bce4*/
+/*Darkblue: #2a8bc8*/
+/*Darkerblue: #27394a*/
