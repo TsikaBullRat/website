@@ -1,12 +1,10 @@
+import {Headline} from './Headline';
 
 export const Contacts = () => {
     return (
         <div>
-            <div className="row about_us_box">
-                <div className="line"></div>
-                <h2>How to get in touch with us</h2>
-                <div className="line"></div>
-            </div>
+            <Headline headline={"How to get in touch with us"}/>
+            
             <div className="row">
 
                 <div className="col-lg-6  col-sm-12 ">

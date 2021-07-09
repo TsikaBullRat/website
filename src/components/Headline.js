@@ -1,11 +1,10 @@
 import React from 'react';
 
-export const Headline = (prop) => {
-    console.log(prop)
+export const Headline = props => {
     return (
-        <div className="row about_us_box">
+        <div className="row headline_box">
             <div className="line"></div>
-            <h2>{this.prop.headline}</h2>
+            <h2>{props.headline}</h2>
             <div className="line"></div>
         </div>
     )

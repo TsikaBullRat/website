@@ -1,9 +1,11 @@
 import { Link } from 'react-router-dom';
-
+import {Headline} from './Headline';
 
 function impactSummary() {
     return (
-        <div className="row justify-content-center back bg-primary mb-5">
+        <div>
+            <Headline headline={"Our Impacts"}/>
+            <div className="row justify-content-center mb-5" style={{color:'#000'}}>
             <div className="col-sm-12 col-lg-3 ml-5">
                 <h2>We move things</h2>
                 <p>As Life line we make moves to change peoples lives. We want to help people deal with their downfalls to lift them into to joy</p>
@@ -35,6 +37,8 @@ function impactSummary() {
                         <h5>Achieved</h5>
                     </div>
                 </div>
+            </div>
+            
                 
         </div>
     )

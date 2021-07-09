@@ -4,11 +4,8 @@ import {Headline} from './Headline';
 function Summary() {
     return (
         <div className="container-fluid">
-            <div className="row about_us_box">
-                <div className="line"></div>
-                <h2>About Us</h2>
-                <div className="line"></div>
-            </div>
+            <Headline headline={"About Us"}/>
+            
             <div className="row justify-content-center mb-5">
                 <div className="col-sm-12 col-lg-4 text-center">
                     <h3>What we're about</h3>
