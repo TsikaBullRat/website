@@ -6,7 +6,7 @@ export const Aboutus = () => {
     return (
 
         <div>
-            <Header/>
+            <Header />
             <div className="container">
 
                 <Headline headline="Helping Hand" />

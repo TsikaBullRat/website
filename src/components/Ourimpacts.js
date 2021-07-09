@@ -6,7 +6,7 @@ import Header from './Header'
 export const Ourimpacts = () => {
     return (
         <div>
-            <Header/>
+            <Header />
 
             <div> <Headline headline="Lives Changed" />
 

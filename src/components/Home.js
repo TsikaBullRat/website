@@ -8,7 +8,7 @@ export const Home = () => {
 
     return (
         <div>
-            <Header/>
+            <Header />
             <div className="jumbotron">
 
                 <h1 className="display-4 pt-5 font-weight-bold">Get hope to the hopless</h1>

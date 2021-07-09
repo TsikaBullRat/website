@@ -4,7 +4,7 @@ import Header from './Header'
 
 export const Contacts = () => (
     <div>
-        <Header/>
+        <Header />
 
         <div> <Headline headline="Get in touch" />
 
