@@ -159,10 +159,6 @@ padding-top: 5%;
 .footer_nav{
   height: 150px;
 }
-.mini_about_box{
-  flex: 0 0 20%;
-  margin: 0px 20px 0px 20px;
-}
 .list_vision{
   list-style: url('./assets/tick.svg');
   margin-left: 12%;

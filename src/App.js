@@ -1,19 +1,27 @@
-
+import { Home } from './components/Home';
+import { Aboutus } from './components/Aboutus';
+import { Ourimpacts } from './components/Ourimpacts';
+import { Contacts } from './components/Contacts';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Header from './components/Header';
 import './App.css';
-import { Copy1 } from './Copy1'
 
 function App() {
   return (
     <div>
-          <Copy1 />
+          <Router>
+      <Header/>
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route path="/about" component={Aboutus} />
+          <Route path="/impacts" component={Ourimpacts} />
+          <Route path="/contacts" component={Contacts} />
+        </Switch>
+      </Router>
     </div>
   );
 }
 
 export default App;
-
-const page ={
-/*width: "100%",*/
-  display: "flex",
-  alignItems: "center"
-}

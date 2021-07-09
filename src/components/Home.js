@@ -1,7 +1,8 @@
 import Footer from './Footer'
-import Summary from './Summary'
-import ImpactSum from './impactSummary'
+import Summary_1 from './Pieces/Summary_1'
+import Summary_2 from './Pieces/Summary_2'
 import Loader from 'react-spinners/HashLoader';
+import { Jumbotron } from './Pieces/Jumbotron';
 import React, { useState, useEffect } from 'react'
 
 
@@ -23,21 +24,10 @@ export const Home = () => {
         loading ? (
           <div className="text-center" style={{ marginTop: 300 }}><Loader size={300} color={"#27394a"} loading={loading} /></div>
         ) : (<>
-          <div className="jumbotron">
-
-            <h1 className="display-4 pt-5 font-weight-bold">Reach One Teach One</h1>
-            <h3 className="lead">The mission of the ROTO centre is to help special
-              needs children and their families improve and
-              maintain a healthy and independent lifestyle; to
-              improve their quality of life.
-            </h3>
-            <a className="btn btn-lg ml-3 my_button_jumbotron mb-3" href="#" role="button">Make a difference</a>
-            <a className="btn btn-lg ml-3 my_button_jumbotron mb-3" href="#" role="button">Give a hand</a>
-
-          </div>
-
-          <Summary />
-          <ImpactSum />
+          
+          <Jumbotron/>
+          <Summary_1 />
+          <Summary_2 />
           <Footer />
         </>
         )}
