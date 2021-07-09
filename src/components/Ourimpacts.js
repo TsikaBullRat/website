@@ -23,6 +23,7 @@ export const Ourimpacts = () => {
         ) : (<>
 
             <div> <Headline headline="Lives Changed" />
+            
 
                 <p className="text-center">We aid in changing peoples lives for the better,to ensure that your physical ,emotional and mental health is cared for. </p>
 
