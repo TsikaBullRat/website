@@ -1,5 +1,11 @@
 body{
   overflow-x: hidden;
+  display: inline;
+  width: 100%;
+  /*display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 -150px;*/
 }
 .logos{
 padding-top:50px;
@@ -59,7 +65,6 @@ i{
 }
 .nav-link:hover{
   color: #fff;
-  width: 150px;
   text-align: center;
   background-color: #71bce4;
 }
@@ -133,7 +138,7 @@ padding-top: 5%;
   width: 20%;
 }
 .headline_box > h2{
-  background: #2a8bc8;
+  background: #71bce4;
   width: auto;
   height: auto;
   padding: 10px;
@@ -233,8 +238,10 @@ padding-top: 5%;
   width: 100%;
   text-align: center;
 }
+
 .jumbotron{
   height: 600px;
+  border-radius: 0;
 }
 }
 /*Ornage: #fa8701*/

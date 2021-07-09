@@ -2,11 +2,25 @@ import profile from '../assets/profile.png';
 import { Headline } from './Headline';
 import Footer from './Footer';
 import Header from './Header'
+import Loader from 'react-spinners/HashLoader';
+import React, { useState, useEffect } from 'react'
 
 export const Ourimpacts = () => {
+    const [loading, setLoading] = useState(false);
+  useEffect(() => {
+    setLoading(true)
+    setTimeout(() => {
+      setLoading(false)
+    }, 3000)
+  },
+    []
+  );
     return (
         <div>
-            <Header/>
+            {
+        loading ? (
+            <div className="text-center" style={{marginTop:300}}><Loader size={300} color={"#27394a"} loading={loading} /></div>
+        ) : (<>
 
             <div> <Headline headline="Lives Changed" />
 
@@ -61,7 +75,7 @@ export const Ourimpacts = () => {
                 </div></div>
 
             <Footer></Footer>
-
+            </>)}
         </div>
     );
 }

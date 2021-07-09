@@ -1,10 +1,26 @@
 import { Headline } from './Headline';
 import Footer from './Footer';
 import Header from './Header'
+import Loader from 'react-spinners/HashLoader';
+import React, { useState, useEffect } from 'react'
 
-export const Contacts = () => (
+export const Contacts = () => {
+    const [loading, setLoading] = useState(false);
+  useEffect(() => {
+    setLoading(true)
+    setTimeout(() => {
+      setLoading(false)
+    }, 3000)
+  },
+    []
+  );
+  return(
     <div>
-        <Header/>
+        {
+        loading ? (
+            <div className="text-center" style={{marginTop:300}}><Loader size={300} color={"#27394a"} loading={loading} /></div>
+        ) : (<>
+        
 
         <div> <Headline headline="Get in touch" />
 
@@ -48,12 +64,12 @@ export const Contacts = () => (
             </div></div>
 
         <Footer></Footer>
-
+        </>)}
     </div>
 
 
 
-
+)
 
     /*export default Contacts*/
-)
+}
