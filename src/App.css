@@ -31,6 +31,7 @@ i{
   height: 700px;
   padding-top: 150px;
   padding-left: 80px;
+  border-radius: 0%;
 }
 
 .display-4 {
@@ -168,7 +169,7 @@ padding-top: 5%;
   width: 80%;
 }
 .footer{
-  background: #27394a;
+  background: #2a8bc8;
   width:100%;
 }
 /*Quick Donate Button CSS start*/
