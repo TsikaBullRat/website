@@ -7,14 +7,9 @@ function impactSummary() {
             <Headline headline="Our Impacts" />
             <div className="row justify-content-center my_text_center back mb-5">
                 <div className="col-sm-12 col-lg-4">
-                    <h2>We move things</h2>
-                    <p>As Life line we make moves to change peoples lives. We want to help people deal with their downfalls to lift them into to joy</p>
-                    <Link exact to='/impacts'>
-                        <button className="btn ">
-                            See the difference
-                        </button>
-                    </Link>
-
+                    <h2>Reach One Teach One</h2>
+                    <p></p>
+                   
 
                 </div>
                 <div className="d-flex justify-content-end">

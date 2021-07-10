@@ -1,5 +1,5 @@
 import { Home } from './components/Home';
-import AboutUs from './components/AboutUs';
+import AboutUs from './components/Aboutus';
 import { Programmes } from './components/Programmes';
 import { Contacts } from './components/Contacts';
 import { Teams } from './components/Pieces/Teams';
@@ -17,7 +17,7 @@ function App() {
             <Home />
           </Route>
           <Route path="/about" component={AboutUs} />
-          <Route path="/programmes" component={Programmes} />
+          <Route path="/programs" component={Programmes} />
           <Route path="/teams" component={Teams}/>
           <Route path="/contacts" component={Contacts} />
         </Switch>
