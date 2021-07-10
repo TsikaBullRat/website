@@ -1,6 +1,5 @@
-import { Headline } from './Headline';
-import Footer from './Footer';
-import Header from './Header'
+import { Headline } from './Pieces/Headline';
+import Footer from './Pieces/Footer';
 import Loader from 'react-spinners/HashLoader';
 import React, { useState, useEffect } from 'react'
 

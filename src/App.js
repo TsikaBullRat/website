@@ -1,9 +1,10 @@
 import { Home } from './components/Home';
-import { Aboutus } from './components/Aboutus';
-import { Ourimpacts } from './components/Ourimpacts';
+import AboutUs from './components/AboutUs';
+import { Programmes } from './components/Programmes';
 import { Contacts } from './components/Contacts';
+import { Teams } from './components/Pieces/Teams';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Header from './components/Header';
+import Header from './components/Pieces/Header';
 import './App.css';
 
 function App() {
@@ -15,8 +16,9 @@ function App() {
           <Route exact path="/">
             <Home />
           </Route>
-          <Route path="/about" component={Aboutus} />
-          <Route path="/impacts" component={Ourimpacts} />
+          <Route path="/about" component={AboutUs} />
+          <Route path="/programmes" component={Programmes} />
+          <Route path="/teams" component={Teams}/>
           <Route path="/contacts" component={Contacts} />
         </Switch>
       </Router>
