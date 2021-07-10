@@ -29,8 +29,8 @@ function impactSummary() {
                     <div className="text-center col-sm-12 col-lg-2">
                         <br />
                         <i className="bi bi-check2-circle" style={{ fontSize: 80, padding: 50 }}></i>
-                        <h5>2020 We finally have our  own school premises from  donated land. 
-</h5>
+                        <h5>2020 We finally have our  own school premises from  donated land.
+                        </h5>
                         <br />
                     </div>
                     <div className="text-center col-sm-12 col-lg-2">

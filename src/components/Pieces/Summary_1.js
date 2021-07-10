@@ -19,6 +19,12 @@ function Summary() {
                     <h3>Our Mission</h3>
                     <ul>
                         <div className="list_repsonder">
+                            <h6>
+                                The mission of the ROTO centre is to help special needs children and their families improve and maintain a healthy and independent lifestyle; to improve their quality of life.Our four-pronged purpose is as follows:
+                            </h6>
+                            <hr />
+                        </div>
+                        <div className="list_repsonder">
                             <li>
                                 Promote dignity and self-esteem
                             </li>
@@ -26,14 +32,7 @@ function Summary() {
                         </div>
                         <div className="list_repsonder">
                             <li>
-                                Foster Independence and self-determination
-                            </li>
-                            <hr />
-                        </div>
-                        <div className="list_repsonder">
-                            <li>
-                                Facilitate social interaction and involvement in
-                                community life
+                                foster independence and self-determination
 
                             </li>
                             <hr />
@@ -41,8 +40,14 @@ function Summary() {
 
                         <div className="list_repsonder">
                             <li>
-                                Dispel stereotypes and myths about special
-                                needs
+                                Facilitate social interaction and involvement in community life
+                            </li>
+                            <hr />
+                        </div>
+
+                        <div className="list_repsonder">
+                            <li>
+                                Dispel stereotypes and myths about special needs
                             </li>
                             <hr />
                         </div>

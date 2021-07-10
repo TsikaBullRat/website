@@ -24,8 +24,8 @@ export const Home = () => {
         loading ? (
           <div className="text-center" style={{ marginTop: 300 }}><Loader size={300} color={"#27394a"} loading={loading} /></div>
         ) : (<>
-          
-          <Jumbotron/>
+
+          <Jumbotron />
           <Summary_1 />
           <Summary_2 />
           <Footer />
