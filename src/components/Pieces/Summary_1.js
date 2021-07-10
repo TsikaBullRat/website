@@ -22,7 +22,6 @@ function Summary() {
                             <h6>
                                 The mission of the ROTO centre is to help special needs children and their families improve and maintain a healthy and independent lifestyle; to improve their quality of life.Our four-pronged purpose is as follows:
                             </h6>
-                            <hr />
                         </div>
                         <div className="list_repsonder">
                             <li>

@@ -1,5 +1,5 @@
 import { Home } from './components/Home';
-import AboutUs from './components/Aboutus';
+import AboutUs from './components/AboutUs';
 import { Programmes } from './components/Programmes';
 import { Contacts } from './components/Contacts';
 import { Teams } from './components/Teams';
