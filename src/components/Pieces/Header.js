@@ -12,7 +12,7 @@ function Header() {
             " id="navbarNavAltMarkup">
                 <div className="navbar-nav">
                     <NavLink exact to="/" className="nav-link">Home</NavLink>
-                    <NavLink exact to="/impacts" className="nav-link">About Us</NavLink>
+                    <NavLink exact to="/about" className="nav-link">About Us</NavLink>
                     <NavLink exact to="/programs" className="nav-link">Programs</NavLink>
                     <NavLink exact to="/teams" className="nav-link">Teams</NavLink>
                     <NavLink exact to="/contacts" className="nav-link">Contacts</NavLink>

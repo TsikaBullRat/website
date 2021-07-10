@@ -1,5 +1,5 @@
 
-import { Teams } from './Pieces/Teams';
+import { Teams } from './Teams';
 import { Goals } from './Pieces/Goals';
 import { Background } from './Pieces/Background';
 import Footer from './Pieces/Footer';
