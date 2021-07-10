@@ -1,5 +1,5 @@
-import profile from '../../assets/profile.png';
-import { Headline } from './Headline';
+import profile from '../assets/profile.png';
+import { Headline } from './Pieces/Headline';
 
 export const Teams = () =>{
     return(

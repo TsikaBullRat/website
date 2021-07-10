@@ -2,7 +2,7 @@ import { Home } from './components/Home';
 import AboutUs from './components/Aboutus';
 import { Programmes } from './components/Programmes';
 import { Contacts } from './components/Contacts';
-import { Teams } from './components/Pieces/Teams';
+import { Teams } from './components/Teams';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Header from './components/Pieces/Header';
 import './App.css';
