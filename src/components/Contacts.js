@@ -29,7 +29,7 @@ export const Contacts = () => {
         <div>
             {
                 loading ? (
-                    <div className="text-center" style={{ marginTop: 300 }}><Loader size={300} color={"#fa8701"} loading={loading} /></div>
+                    <div className="text-center" style={{ marginTop: 300 }}><Loader size={300} color={"#27394a"} loading={loading} /></div>
                 ) : (<>
 
 
@@ -44,11 +44,11 @@ export const Contacts = () => {
                                 <div className="logos">
 
                                     <div className="mt-4">
-                                        <div className='Space-around'> <i className="bi bi-envelope-fill"></i>Email</div>
-                                        <div className='Space-around'> <i className="bi bi-telephone-fill"></i> Phone Number  <br></br></div>
-                                        <div className='Space-around'> <i className="bi bi-geo-alt-fill"></i> Address <br></br></div>
-                                        <div className='Space-around'> <i className="bi bi-facebook"></i><a href="#"> Social Media </a></div>
-                                        <div className='Space-around'> <i className="bi bi-instagram"></i><a href="#"> Social Media</a></div>
+                                        <div className='Space-around'> <i className="bi bi-envelope-fill"></i> Lifeline@gmailcom</div>
+                                        <div className='Space-around'> <i className="bi bi-telephone-fill"></i> 0530501067  <br></br></div>
+                                        <div className='Space-around'> <i className="bi bi-geo-alt-fill"></i> 1 Lynch St.Homestead,Kimberley,8301 <br></br></div>
+                                        <div className='Space-around'> <i className="bi bi-facebook"></i><a href=" https://www.facebook.com "> facebook.com </a></div>
+                                        <div className='Space-around'> <i className="bi bi-instagram"></i><a href=" https://www.@Lifeline_nc "> @Lifeline_nc</a></div>
 
 
                                     </div>

@@ -22,27 +22,4 @@ Photo by <a href="https://unsplash.com/@benjaminjsuter?utm_source=unsplash&utm_m
 
 nature_smiling
 Photo by <a href="https://unsplash.com/@barman47?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Dominic Uzoanya</a> on <a href="https://unsplash.com/s/photos/smile-face?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-
-education
-Photo by <a href="https://unsplash.com/@santivedri?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Santi Vedrí</a> on <a href="https://unsplash.com/s/photos/education-for-disabled-youth?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
-nutrients
-
-supportive
-Photo by <a href="https://unsplash.com/@hannahbusing?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Hannah Busing</a> on <a href="https://unsplash.com/s/photos/support-group?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
-recreation
-Photo by <a href="https://unsplash.com/@nasiklababan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nasik Lababan</a> on <a href="https://unsplash.com/s/photos/kids-recreation?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-
-education2
-Photo by <a href="https://unsplash.com/@ivalex?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ivan Aleksic</a> on <a href="https://unsplash.com/s/photos/education?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
-education1
-Photo by <a href="https://unsplash.com/@anniespratt?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Annie Spratt</a> on <a href="https://unsplash.com/s/photos/disabled-children?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-
-nutrients1
-Photo by <a href="https://unsplash.com/@linsyorozuya?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">hui sang</a> on <a href="https://unsplash.com/s/photos/disabled-children?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-
-play_time
-Photo by <a href="https://unsplash.com/@52nd_?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Siddhant Soni</a> on <a href="https://unsplash.com/s/photos/disabled-children?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
