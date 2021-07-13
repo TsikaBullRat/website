@@ -2,7 +2,6 @@ import { Headline } from './Pieces/Headline';
 import Footer from './Pieces/Footer';
 import Loader from 'react-spinners/HashLoader';
 import React, { useState, useEffect } from 'react'
-import mailjs from 'emailjs-com'
 
 export const Contacts = () => {
     const [loading, setLoading] = useState(false);
@@ -14,17 +13,6 @@ export const Contacts = () => {
     },
         []
     );
-    function sendEmail(e){
-        e.preventDefault();
-
-        mailjs.sendForm(
-            'service_7yvj03f',
-            'template_au3n66h',
-            e.target, 'user_6J1Ea28T23gHtil5EVwgk'
-        ).then(res =>{
-            console.log(res)
-        }).catch(err => console.log(err))
-    }
     return (
         <div>
             {
@@ -58,12 +46,11 @@ export const Contacts = () => {
                             <div className="col-lg-6  col-sm-12">
 
                                 <div className="mt-5">
-                                    <form onSubmit={sendEmail}>
-                                        <input type="email" placeholder="Email" className="form-control w-50" name="email" aria-describedby="emailHelp" />
-                                        <input type="text" placeholder="Subject" className="form-control w-50 mt-3" name="subject" aria-describedby="emailHelp" /> <br></br>
-                                        <textarea className="form control w-50 mt-3" name="matter" rows="3" placeholder="Message"></textarea> <br></br>
-                                        <button name="submit" type="submit" className="btn">send</button> <br></br>
-                                    </form>
+                                    <input type="email" placeholder="Email" className="form-control w-50" id="exampleInputEmail1" aria-describedby="emailHelp" />
+                                    <input type="text" placeholder="Subject" className="form-control w-50 mt-3" id="exampleInputEmail1" aria-describedby="emailHelp" /> <br></br>
+                                    <textarea className="form control w-50 mt-3" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea> <br></br>
+                                    <button id="btn-send" type="button" className="btn">send</button> <br></br>
+
                                 </div>
                                 <div>
 

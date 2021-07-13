@@ -9,19 +9,20 @@ import React, { useState, useEffect } from 'react'
 export const Home = () => {
 
   const [loading, setLoading] = useState(false);
-  useEffect(() => { //useEffect is called with our function arg
-    setLoading(true)//We call a function declared in our useState to set loading to true
-    setTimeout(() => {//We set our time out which takes to args and the first is a function
-      setLoading(false)//We set loading to true
-    }, 3000)// we set our time as the second arg which is about 3 seconds
+  useEffect(() => {
+    setLoading(true)
+    setTimeout(() => {
+      setLoading(false)
+    }, 3000)
   },
-    []//then we have no dependcies
-  );//close our useEffect.
-
+    []
+  );
   return (
     <>
+
       {
         loading ? (
+<<<<<<< HEAD
 <<<<<<< HEAD
           <div className="text-center" style={{ marginTop: 300 }}>
             <Loader size={300} color={"#fa8701"} loading={loading} />
@@ -29,6 +30,9 @@ export const Home = () => {
 =======
           <div className="text-center" style={{ marginTop: 300 }}><Loader size={300} color={"#27394a"} loading={loading} /></div>
 >>>>>>> parent of 89f4158... final commit
+=======
+          <div className="text-center" style={{ marginTop: 300 }}><Loader size={300} color={"#fa8701"} loading={loading} /></div>
+>>>>>>> parent of e15dd13... Form function
         ) : (
         <>  
           <Jumbotron/>
